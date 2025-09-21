@@ -31,8 +31,8 @@ public class AppConfig {
                 .csrf(csrf -> csrf.disable())
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .formLogin(form -> form.disable())
-                .httpBasic(basic -> basic.disable()); /* отключаем BASIC-аутентификацию
-                используем JWT */
+                .httpBasic(basic -> basic.disable()); /* отключаем BASIC-аутентификацию,
+                т.к. используем JWT */
 
         return http.build();
     }
