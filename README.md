@@ -3,8 +3,9 @@
 
 ## Установка
 Если хотите побаловаться с этим "шедевром",то как просто клоньте репозиторий
-git clone https://github.com/OgyrechekSan/messenger_MONKEY.git
-
+```bash
+   git clone https://github.com/username/repo-name.git
+```
 ## Технологии
 
 *   [Java]([https://www.java.com]) - Основной язык программирования
